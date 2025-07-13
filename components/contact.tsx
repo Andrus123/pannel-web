@@ -145,14 +145,14 @@ Me gustaría coordinar una visita técnica para confirmar los detalles.`;
       return;
     }
 
-    const whatsappNumber = "59177204408"; // Número de Bolivia
+    const whatsappNumber = ""; // Número de Bolivia
     const message = generateWhatsAppMessage();
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
     window.open(whatsappUrl, "_blank");
   };
 
   const contactWhatsApp = () => {
-    const whatsappNumber = "59177204408"; // Número de Bolivia
+    const whatsappNumber = ""; // Número de Bolivia
     const message = encodeURIComponent(
       "¡Hola! Me interesa conocer más sobre sus servicios de pintura."
     );
